@@ -29,6 +29,21 @@ const actions = {
     title: 'Heading 2',
     result: () => exec('formatBlock', '<H2>')
   },
+  heading3: {
+    icon: '<b>H<sub>2</sub></b>',
+    title: 'Heading 3',
+    result: () => exec('formatBlock', '<H3>')
+  },
+  heading4: {
+    icon: '<b>H<sub>2</sub></b>',
+    title: 'Heading 4',
+    result: () => exec('formatBlock', '<H4>')
+  },
+  heading5: {
+    icon: '<b>H<sub>2</sub></b>',
+    title: 'Heading 5',
+    result: () => exec('formatBlock', '<H5>')
+  },
   paragraph: {
     icon: '&#182;',
     title: 'Paragraph',

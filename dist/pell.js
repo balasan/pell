@@ -49,6 +49,27 @@ var actions = {
       return exec('formatBlock', '<H2>');
     }
   },
+  heading3: {
+    icon: '<b>H<sub>2</sub></b>',
+    title: 'Heading 3',
+    result: function result() {
+      return exec('formatBlock', '<H3>');
+    }
+  },
+  heading4: {
+    icon: '<b>H<sub>2</sub></b>',
+    title: 'Heading 4',
+    result: function result() {
+      return exec('formatBlock', '<H4>');
+    }
+  },
+  heading5: {
+    icon: '<b>H<sub>2</sub></b>',
+    title: 'Heading 5',
+    result: function result() {
+      return exec('formatBlock', '<H5>');
+    }
+  },
   paragraph: {
     icon: '&#182;',
     title: 'Paragraph',
