@@ -1,5 +1,5 @@
 {
-  "name": "pell-custom",
+  "name": "pell",
   "description": "pell - the simplest and smallest WYSIWYG text editor for web, with no dependencies",
   "author": "Jared Reich",
   "version": "0.7.0",
@@ -41,8 +41,5 @@
     "rollup-plugin-babel": "2.7.1",
     "rollup-plugin-uglify": "2.0.1",
     "run-sequence": "1.2.2"
-  },
-  "dependencies": {
-    "pell": "^0.7.0"
   }
 }
