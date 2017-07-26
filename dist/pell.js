@@ -37,35 +37,35 @@ var actions = {
   },
   heading1: {
     icon: '<b>H<sub>1</sub></b>',
-    title: 'Heading 1',
+    title: 'H1',
     result: function result() {
       return exec('formatBlock', '<H1>');
     }
   },
   heading2: {
     icon: '<b>H<sub>2</sub></b>',
-    title: 'Heading 2',
+    title: 'H2',
     result: function result() {
       return exec('formatBlock', '<H2>');
     }
   },
   heading3: {
-    icon: '<b>H<sub>2</sub></b>',
-    title: 'Heading 3',
+    icon: '<b>H<sub>3</sub></b>',
+    title: 'H3',
     result: function result() {
       return exec('formatBlock', '<H3>');
     }
   },
   heading4: {
-    icon: '<b>H<sub>2</sub></b>',
-    title: 'Heading 4',
+    icon: '<b>H<sub>4</sub></b>',
+    title: 'H4',
     result: function result() {
       return exec('formatBlock', '<H4>');
     }
   },
   heading5: {
-    icon: '<b>H<sub>2</sub></b>',
-    title: 'Heading 5',
+    icon: '<b>H<sub>5</sub></b>',
+    title: 'H5',
     result: function result() {
       return exec('formatBlock', '<H5>');
     }
